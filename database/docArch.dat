@@ -1,0 +1,29 @@
+<dbDoctors class_id="0" tracking_level="0" version="0">
+	<n>3</n>
+	<max>6</max>
+	<is_pointer>1</is_pointer>
+	<A class_id="1" tracking_level="1" version="0" object_id="_0">
+		<uid>1</uid>
+		<name>Dr Nick</name>
+		<userRole>2</userRole>
+		<password>default</password>
+		<specialisation>Hearts</specialisation>
+		<practise>King&apos;s Landing</practise>
+	</A>
+	<A class_id_reference="1" object_id="_1">
+		<uid>4</uid>
+		<name>Dr Bashir</name>
+		<userRole>2</userRole>
+		<password>default</password>
+		<specialisation>Aliens</specialisation>
+		<practise>DS9</practise>
+	</A>
+	<A class_id_reference="1" object_id="_2">
+		<uid>6</uid>
+		<name>Dr Spurrier</name>
+		<userRole>2</userRole>
+		<password>default</password>
+		<specialisation>Paediatrician</specialisation>
+		<practise>The entirety of South Australia</practise>
+	</A>
+</dbDoctors>

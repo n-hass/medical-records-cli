@@ -1,0 +1,6 @@
+echo Test 1
+./ioTest < testDrivers/ioTestIn1.txt | diff - testDrivers/ioTestExpOut1.txt
+echo Test 2
+./ioTest < testDrivers/ioTestIn2.txt | diff - testDrivers/ioTestExpOut2.txt
+echo Test 3
+./ioTest < testDrivers/ioTestIn3.txt | diff - testDrivers/ioTestExpOut3.txt

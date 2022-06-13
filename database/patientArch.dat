@@ -1,0 +1,177 @@
+<dbPatients class_id="0" tracking_level="0" version="0">
+	<n>4</n>
+	<max>6</max>
+	<is_pointer>1</is_pointer>
+	<A class_id="1" tracking_level="1" version="0" object_id="_0">
+		<userUid>2</userUid>
+		<userFullName>Jaime Lannister</userFullName>
+		<userRole>1</userRole>
+		<userPassword>default</userPassword>
+		<userAddress>null</userAddress>
+		<userDob>null</userDob>
+		<userPhoneNum>000</userPhoneNum>
+		<userBloodType>null</userBloodType>
+		<emergencyContact>I don&apos;t get in emergencies</emergencyContact>
+		<patientRecords class_id="2" tracking_level="0" version="0">
+			<n>3</n>
+			<max>6</max>
+			<is_pointer>1</is_pointer>
+			<A class_id="3" tracking_level="1" version="0" object_id="_1">
+				<recordId>1</recordId>
+				<patientOwner>2</patientOwner>
+				<authorDoctor>1</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 00:49:14 2021</dateMade>
+				<recordTitle>rec 1</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/2/1.txt</pathToFile>
+			</A>
+			<A class_id_reference="3" object_id="_2">
+				<recordId>2</recordId>
+				<patientOwner>2</patientOwner>
+				<authorDoctor>1</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 00:49:41 2021</dateMade>
+				<recordTitle>rec 2</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/2/2.txt</pathToFile>
+			</A>
+			<A class_id_reference="3" object_id="_3">
+				<recordId>3</recordId>
+				<patientOwner>2</patientOwner>
+				<authorDoctor>1</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 00:50:43 2021</dateMade>
+				<recordTitle>Here&apos;s another record for ser Lannister</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/2/3.txt</pathToFile>
+			</A>
+		</patientRecords>
+		<authDoctors class_id="4" tracking_level="0" version="0">
+			<n>1</n>
+			<max>2</max>
+			<is_pointer>0</is_pointer>
+			<A>1</A>
+		</authDoctors>
+	</A>
+	<A class_id_reference="1" object_id="_4">
+		<userUid>3</userUid>
+		<userFullName>Test Patient 1</userFullName>
+		<userRole>1</userRole>
+		<userPassword>default</userPassword>
+		<userAddress>1</userAddress>
+		<userDob>2</userDob>
+		<userPhoneNum>3</userPhoneNum>
+		<userBloodType>null</userBloodType>
+		<emergencyContact>4</emergencyContact>
+		<patientRecords>
+			<n>0</n>
+			<max>0</max>
+			<is_pointer>1</is_pointer>
+		</patientRecords>
+		<authDoctors>
+			<n>3</n>
+			<max>6</max>
+			<is_pointer>0</is_pointer>
+			<A>1</A>
+			<A>6</A>
+			<A>4</A>
+		</authDoctors>
+	</A>
+	<A class_id_reference="1" object_id="_5">
+		<userUid>5</userUid>
+		<userFullName>Sheldon Cooper</userFullName>
+		<userRole>1</userRole>
+		<userPassword>default</userPassword>
+		<userAddress>Pasadena, somewhere not very high</userAddress>
+		<userDob>July 1994</userDob>
+		<userPhoneNum>67391 42</userPhoneNum>
+		<userBloodType>null</userBloodType>
+		<emergencyContact>Amy&apos;s phone</emergencyContact>
+		<patientRecords>
+			<n>1</n>
+			<max>2</max>
+			<is_pointer>1</is_pointer>
+			<A class_id_reference="3" object_id="_6">
+				<recordId>4</recordId>
+				<patientOwner>5</patientOwner>
+				<authorDoctor>4</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 01:05:43 2021</dateMade>
+				<recordTitle>Test rec1</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/5/4.txt</pathToFile>
+			</A>
+		</patientRecords>
+		<authDoctors>
+			<n>2</n>
+			<max>2</max>
+			<is_pointer>0</is_pointer>
+			<A>4</A>
+			<A>1</A>
+		</authDoctors>
+	</A>
+	<A class_id_reference="1" object_id="_7">
+		<userUid>7</userUid>
+		<userFullName>Test Patient 2</userFullName>
+		<userRole>1</userRole>
+		<userPassword>default</userPassword>
+		<userAddress>null</userAddress>
+		<userDob>null</userDob>
+		<userPhoneNum>null</userPhoneNum>
+		<userBloodType>null</userBloodType>
+		<emergencyContact>null</emergencyContact>
+		<patientRecords>
+			<n>5</n>
+			<max>6</max>
+			<is_pointer>1</is_pointer>
+			<A class_id_reference="3" object_id="_8">
+				<recordId>5</recordId>
+				<patientOwner>7</patientOwner>
+				<authorDoctor>6</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 02:13:15 2021</dateMade>
+				<recordTitle>2 - 1</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/7/5.txt</pathToFile>
+			</A>
+			<A class_id_reference="3" object_id="_9">
+				<recordId>6</recordId>
+				<patientOwner>7</patientOwner>
+				<authorDoctor>6</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 02:15:19 2021</dateMade>
+				<recordTitle>2-2</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/7/6.txt</pathToFile>
+			</A>
+			<A class_id_reference="3" object_id="_10">
+				<recordId>7</recordId>
+				<patientOwner>7</patientOwner>
+				<authorDoctor>6</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 02:15:30 2021</dateMade>
+				<recordTitle>2-3</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/7/7.txt</pathToFile>
+			</A>
+			<A class_id_reference="3" object_id="_11">
+				<recordId>8</recordId>
+				<patientOwner>7</patientOwner>
+				<authorDoctor>6</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 02:15:36 2021</dateMade>
+				<recordTitle>2-4</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/7/8.txt</pathToFile>
+			</A>
+			<A class_id_reference="3" object_id="_12">
+				<recordId>9</recordId>
+				<patientOwner>7</patientOwner>
+				<authorDoctor>6</authorDoctor>
+				<recordType>1</recordType>
+				<dateMade>Fri May 28 02:15:41 2021</dateMade>
+				<recordTitle>2-5</recordTitle>
+				<pathToFile>/Volumes/GD/Drive/Uni/svnRepo/2021/s1/oop/practical-09-11/database/patients/7/9.txt</pathToFile>
+			</A>
+		</patientRecords>
+		<authDoctors>
+			<n>1</n>
+			<max>2</max>
+			<is_pointer>0</is_pointer>
+			<A>6</A>
+		</authDoctors>
+	</A>
+</dbPatients>

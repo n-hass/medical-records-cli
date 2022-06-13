@@ -1,0 +1,18 @@
+Run the IO test?
+Input invalid. Enter y, n, 1 or 0
+ -–> 
+Choose betweeen 1 and 5
+Input invalid. Try again: 
+ -–> Input invalid. Try again: 
+ -–> A: 4
+enter a letter between a and d
+Input invalid. Try again: 
+ -–> Input invalid. Try again: 
+ -–> Input invalid. Try again: 
+ -–> d
+enter an int or exit
+-80
+enter an unsigned int or exit
+0
+enter a string or exit
+1

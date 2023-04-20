@@ -1,5 +1,5 @@
 # medical-records-cli
-A CLI mockup for a medical records system, completed for 1st year Object-Orientated Programming in 2020.
+A CLI mockup for a medical records system, completed for my 1st year introductory Object-Orientated Programming course in 2020.
 
 ## Features:
 - Serialisation of user data using Boost library
